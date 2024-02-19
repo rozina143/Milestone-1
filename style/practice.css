@@ -1,0 +1,45 @@
+.name{
+    color: blueviolet;
+}
+.list{
+    font-size: 30px;
+    font-family: fantasy;
+}
+#span{
+    color: aqua;
+}
+.hablu{
+    border: 10px solid black;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px purple;
+    padding: 40px ;
+}
+input{
+    font-size: 32px;
+    padding: 10px;
+    display: block;
+    /* background-color: brown; */
+    color:blue;
+}
+input[type="password"]{
+    color: red;
+}
+
+.img{
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    background-image: url('sad.jpg');
+    background-repeat: no-repeat;
+    /* jototuko hide with sei onujai picture set hobe */
+    background-size: contain;
+}
+#class{
+    text-align: center;
+    margin-right: 130px;
+    padding-top: 100px;
+}
+.sad{
+    padding-left: 130px;
+}

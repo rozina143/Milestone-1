@@ -1,0 +1,28 @@
+nav > ul{
+    display: flex;
+}
+nav li {
+   list-style: none;
+   margin-right: 40px;
+}
+nav  li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: rgba(126, 126, 180, 0.952);
+}
+
+
+
+/* module 6 */
+/* nested menu option */
+nav li .drop{
+    display: none;
+}
+
+nav li:hover .drop{
+    display: block;
+}
+
+

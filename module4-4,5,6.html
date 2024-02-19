@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style/module4-4,5.css">
+   <style>
+    table{
+        border-collapse: collapse;
+    }
+    td,th{
+        border: 1px solid red;
+        padding: 10px 15px;
+    }
+   </style>
+</head>
+<body>
+<!-- Navigation -->
+<!-- ar maddome click kore ak jayga theke onno jaygay jaoa jabe ar seikhan theke fire asar jonno same navigation oikhane toiri korte hobe -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="module4-1.html">Video</a></li>
+
+            <li><a href="module4-2.html">HtmlStracture</a></li>
+
+            <li><a href="module4-3.html">Input</li>
+
+
+            <li><a href="module4-4,5.html">Navigation</a>
+            <!-- module 6 ar part -->
+            <!-- nav > ul aita dhara bujay nav ar emidied child k ;; na ul dhara bujay nav ar bhitore joto ul ace nati puti soho -->
+            <ul class="drop">
+                <li><a href="module4-1.html">Video</a></li>
+                <li><a href="module4-2.html">HtmlStracture</a></li>
+                <li><a href="module4-3.html">Input</li>
+                <li><a href="module4-4,5,6.html">Navigation</a></li>
+            </ul>
+    
+            
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+    <!-- Table module 4  -->
+    <table>
+        <caption> <p>Employ Data</p></caption>
+       <thead>
+<tr>
+    <th>No</th>
+    <th>Name</th>
+    <th>Company</th>
+    <th>Salary</th>
+</tr>
+       </thead> 
+
+       <tbody>
+
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Microsoft</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Steve JObs</td>
+            <td>Microsoft</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Japan</td>
+            <td>Microsoft</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Jukarbarg</td>
+            <td>Microsoft</td>
+            <td>1000</td>
+        </tr>
+
+
+       </tbody>
+
+       <tfoot>
+        <tr>
+            <td colspan="4">Total=4</td>
+        </tr>
+       </tfoot>
+    </table>
+</body>
+</html>

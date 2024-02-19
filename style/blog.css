@@ -1,0 +1,34 @@
+h1{
+    font-size: 40px;
+    color: brown;
+    text-decoration: overline;
+}
+#css{
+    /* lekhata hide kora jay .ar jaygata covere kore nibe onnota*/
+    /* display: none; */
+
+
+
+/* lekhata hide hobe but ar jaygata theke jabe kew cover korbe na*/
+    visibility: hidden; 
+}
+.blog{
+    margin: 10px;
+    border: 10px solid orange;
+    /* 1st man hocce vertical 2nd hoce horizental 3rd hocce poridhi*/
+    box-shadow: 10px 20px 30px purple;
+
+}
+
+/* span inline tag hoa te paragraph ar modhe ar with hobe  height hobe na margin sudu right and left a hobe */
+.note{
+    border: 2px solid red;
+}
+.head{
+    height: 500px;
+    background-image: url('sad.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
